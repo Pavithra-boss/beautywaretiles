@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vehicle_number" label="vehicle number" language="en" table="x_775410_beautywar_t_vehicle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vehicle_number</element>
+            <help/>
+            <hint/>
+            <label>vehicle number</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_vehicle</name>
+            <plural>vehicle numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 12:46:07</sys_created_on>
+            <sys_id>1992896d2f164110ebba52172799b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vehicle number</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_documentation_x_775410_beautywar_t_vehicle_vehicle_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 12:46:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

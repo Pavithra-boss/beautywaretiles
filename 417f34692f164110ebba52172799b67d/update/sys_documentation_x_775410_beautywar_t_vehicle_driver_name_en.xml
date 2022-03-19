@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="driver_name" label="driver name" language="en" table="x_775410_beautywar_t_vehicle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>driver_name</element>
+            <help/>
+            <hint/>
+            <label>driver name</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_vehicle</name>
+            <plural>driver names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 05:15:20</sys_created_on>
+            <sys_id>67f4ec712fde4110ebba52172799b6d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>driver name</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_documentation_x_775410_beautywar_t_vehicle_driver_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 05:15:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

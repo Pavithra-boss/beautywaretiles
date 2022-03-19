@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tile_model" table="x_775410_beautywar_t_stock" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tile_model</element>
+            <name>x_775410_beautywar_t_stock</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_id>7d1815792f528110ebba52172799b630</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tile_model</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_choice_x_775410_beautywar_t_stock_tile_model</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>kitchen tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f11815792f528110ebba52172799b630</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>kitchen tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>flooring tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b91815792f528110ebba52172799b631</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>flooring tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bathroom tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d1815792f528110ebba52172799b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>bathroom tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>parking tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>311815792f528110ebba52172799b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>parking tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sit out tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5185d792f528110ebba52172799b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>sit out tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>pooja room tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_stock</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 08:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79185d792f528110ebba52172799b6c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 08:58:35</sys_updated_on>
+            <value>pooja room tiles</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

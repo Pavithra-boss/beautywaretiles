@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="57e168fd2f9e4110ebba52172799b644" sys_domain="global" table="x_775410_beautywar_t_sales" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 05:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3e168fd2f9e4110ebba52172799b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_775410_beautywar_t_sales" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">57e168fd2f9e4110ebba52172799b644</sys_ui_form>
+            <sys_ui_section caption="customer details" display_value="customer details" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">61ff90bd2f9e4110ebba52172799b65d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 05:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 05:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfe168fd2f9e4110ebba52172799b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_775410_beautywar_t_sales" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">57e168fd2f9e4110ebba52172799b644</sys_ui_form>
+            <sys_ui_section caption="purchase" display_value="purchase" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">17e168fd2f9e4110ebba52172799b643</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 05:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:37:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ae69f92f928110ebba52172799b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_775410_beautywar_t_sales" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">57e168fd2f9e4110ebba52172799b644</sys_ui_form>
+            <sys_ui_section caption="payment" display_value="payment" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">68ae69f92f928110ebba52172799b684</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:37:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_775410_beautywar_t_sales</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 05:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57e168fd2f9e4110ebba52172799b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_775410_beautywar_t_sales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_57e168fd2f9e4110ebba52172799b644</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 05:01:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

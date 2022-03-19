@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tile_type" table="x_775410_beautywar_t_purchase" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tile_type</element>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_id>1990c1392f128110ebba52172799b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tile_type</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_choice_x_775410_beautywar_t_purchase_tile_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ceramic Tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d90c1392f128110ebba52172799b612</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+            <value>ceramic tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Porcelain Tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1190c1392f128110ebba52172799b615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+            <value>porcelain tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vitrified Tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9190c1392f128110ebba52172799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+            <value>vitrified tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terrazzo Tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1590c1392f128110ebba52172799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+            <value>terrazzo tiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cement Tiles</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_purchase</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 07:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9590c1392f128110ebba52172799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 07:15:52</sys_updated_on>
+            <value>cement tiles</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
