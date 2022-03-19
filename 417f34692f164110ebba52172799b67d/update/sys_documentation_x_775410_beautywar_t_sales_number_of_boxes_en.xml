@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number_of_boxes" label="number of boxes" language="en" table="x_775410_beautywar_t_sales">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_boxes</element>
+            <help/>
+            <hint/>
+            <label>number of boxes</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_sales</name>
+            <plural>number of boxes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 13:03:01</sys_created_on>
+            <sys_id>e47649212f564110ebba52172799b648</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>number of boxes</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_documentation_x_775410_beautywar_t_sales_number_of_boxes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 13:03:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

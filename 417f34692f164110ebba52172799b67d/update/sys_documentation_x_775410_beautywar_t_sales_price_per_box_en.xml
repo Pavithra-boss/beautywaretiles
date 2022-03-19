@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="price_per_box" label="price per box" language="en" table="x_775410_beautywar_t_sales">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>price_per_box</element>
+            <help/>
+            <hint/>
+            <label>price per box</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_sales</name>
+            <plural>price per boxes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 13:03:00</sys_created_on>
+            <sys_id>dc7649212f564110ebba52172799b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>price per box</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_documentation_x_775410_beautywar_t_sales_price_per_box_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 13:03:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

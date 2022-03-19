@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="t_purchase" max_length="40" name="x_775410_beautywar_t_purchase" sizeclass="0" type="collection">
+        <element label="diesel amount" max_length="20" name="diesel_amount" type="price"/>
+        <element choice="1" dependent="vehicle_used" dependent_on_field="vehicle_used" label="driver name" max_length="40" name="driver_name" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Tata SFC 407" inactive_on_update="false" label="ramesh" sequence="0" value="ramesh"/>
+                <element dependent_value="Tata SFC 407" inactive_on_update="false" label="arun" sequence="1" value="arun"/>
+                <element dependent_value="Ashok Leyland 1616" inactive_on_update="false" label="murugan" sequence="2" value="murugan"/>
+                <element dependent_value="Ashok Leyland 1616" inactive_on_update="false" label="karthick" sequence="3" value="karthick"/>
+                <element dependent_value="Tata LPT 1613" inactive_on_update="false" label="dhinesh" sequence="4" value="dhinesh"/>
+                <element dependent_value="Tata LPT 1613" inactive_on_update="false" label="murali" sequence="5" value="murali"/>
+                <element dependent_value="Ashok Leyland 3118" inactive_on_update="false" label="vjay" sequence="6" value="vjay"/>
+                <element dependent_value="Ashok Leyland 3118" inactive_on_update="false" label="kumar" sequence="7" value="kumar"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element label="number of boxes" max_length="40" name="number_of_boxes" type="integer"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="price per box" max_length="20" name="price_per_box" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cement tiles" label="tile type" max_length="40" name="tile_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ceramic Tiles" sequence="0" value="ceramic tiles"/>
+                <element inactive_on_update="false" label="Porcelain Tiles" sequence="1" value="porcelain tiles"/>
+                <element inactive_on_update="false" label="Vitrified Tiles" sequence="2" value="vitrified tiles"/>
+                <element inactive_on_update="false" label="Terrazzo Tiles" sequence="3" value="terrazzo tiles"/>
+                <element inactive_on_update="false" label="Cement Tiles" sequence="4" value="cement tiles"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="total amount" max_length="20" name="total_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="transporation end date" max_length="40" name="transporation_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="transporation start date" max_length="40" name="transporation_start_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="vehicle number" max_length="32" name="vehicle_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="vehicle used" max_length="40" name="vehicle_used" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tata SFC 407" sequence="0" value="Tata SFC 407"/>
+                <element inactive_on_update="false" label="Ashok Leyland 1616" sequence="1" value="Ashok Leyland 1616"/>
+                <element inactive_on_update="false" label="Tata LPT 1613" sequence="2" value="Tata LPT 1613"/>
+                <element inactive_on_update="false" label="Ashok Leyland 3118" sequence="3" value="Ashok Leyland 3118"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="vehicle_number"/>
+        </index>
+    </element>
+</database>

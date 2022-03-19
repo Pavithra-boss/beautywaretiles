@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="t_sales" max_length="40" name="x_775410_beautywar_t_sales" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="60" name="address" type="string"/>
+        <element label="advance amount paid" max_length="20" name="advance_amount_paid" type="currency"/>
+        <element label="balance to be paid" max_length="20" name="balance_to_be_paid" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="customer name" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="gross amount" max_length="20" name="gross_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="sales ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="number of boxes" max_length="40" name="number_of_boxes" type="integer"/>
+        <element choice="1" label="payment" max_length="40" name="payment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="full payment" sequence="0" value="full payment"/>
+                <element inactive_on_update="false" label="partial payment" sequence="1" value="partial payment"/>
+            </choice>
+        </element>
+        <element choice="1" label="payment mode" max_length="40" name="payment_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="gpay" sequence="1" value="gpay"/>
+                <element inactive_on_update="false" label="phone pay" sequence="2" value="phone pay"/>
+                <element inactive_on_update="false" label="paytm" sequence="3" value="paytm"/>
+                <element inactive_on_update="false" label="amazon pay" sequence="4" value="amazon pay"/>
+            </choice>
+        </element>
+        <element label="phone number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="price per box" max_length="20" name="price_per_box" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sales person" max_length="40" name="sales_person" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="vidhya" sequence="0" value="vidhya"/>
+                <element inactive_on_update="false" label="mani" sequence="1" value="mani"/>
+                <element inactive_on_update="false" label="ramesh" sequence="2" value="ramesh"/>
+                <element inactive_on_update="false" label="suresh" sequence="3" value="suresh"/>
+                <element inactive_on_update="false" label="ajay" sequence="4" value="ajay"/>
+                <element inactive_on_update="false" label="kavitha" sequence="5" value="kavitha"/>
+                <element inactive_on_update="false" label="swetha" sequence="6" value="swetha"/>
+                <element inactive_on_update="false" label="murugan" sequence="7" value="murugan"/>
+                <element inactive_on_update="false" label="bala" sequence="8" value="bala"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="tile model" max_length="40" name="tile_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="kitchen tiles" sequence="0" value="kitchen tiles"/>
+                <element inactive_on_update="false" label="flooring tiles" sequence="1" value="flooring tiles"/>
+                <element inactive_on_update="false" label="sit out  tiles" sequence="2" value="sit out  tiles"/>
+                <element inactive_on_update="false" label="parking tiles" sequence="3" value="parking tiles"/>
+                <element inactive_on_update="false" label="bathroom tiles" sequence="4" value="bathroom tiles"/>
+                <element inactive_on_update="false" label="pooja room tiles" sequence="5" value="pooja room tiles"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="tile type" max_length="40" name="tile_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ceramic Tiles" sequence="0" value="Ceramic Tiles"/>
+                <element inactive_on_update="false" label="Porcelain Tiles" sequence="1" value="Porcelain Tiles"/>
+                <element inactive_on_update="false" label="Vitrified Tiles" sequence="2" value="Vitrified Tiles"/>
+                <element inactive_on_update="false" label="Terrazzo Tiles" sequence="3" value="Terrazzo Tiles"/>
+                <element inactive_on_update="false" label="Cement Tiles" sequence="4" value="Cement Tiles"/>
+                <element inactive_on_update="false" label="Stone Tiles" sequence="5" value="Stone Tiles"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="total amount" max_length="20" name="total_amount" type="integer"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="vehicle charge" max_length="20" name="vehicle_charge" type="integer"/>
+        <element attributes="encode_utf8=false" label="vehicle number" max_length="32" name="vehicle_number" type="string"/>
+        <index name="index">
+            <element name="vehicle_number"/>
+        </index>
+    </element>
+</database>

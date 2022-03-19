@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="t_stock" max_length="40" name="x_775410_beautywar_t_stock" sizeclass="0" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="amount per box" max_length="20" name="amount_per_box" type="price"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="stock ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="number of boxes available" max_length="40" name="number_of_boxes_available" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="stock refill urgency" max_length="40" name="stock_refill_urgency" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="tile model" max_length="40" name="tile_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="kitchen tiles" sequence="0" value="kitchen tiles"/>
+                <element inactive_on_update="false" label="flooring tiles" sequence="1" value="flooring tiles"/>
+                <element inactive_on_update="false" label="bathroom tiles" sequence="2" value="bathroom tiles"/>
+                <element inactive_on_update="false" label="parking tiles" sequence="3" value="parking tiles"/>
+                <element inactive_on_update="false" label="sit out tiles" sequence="4" value="sit out tiles"/>
+                <element inactive_on_update="false" label="pooja room tiles" sequence="5" value="pooja room tiles"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="tile type" max_length="40" name="tile_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ceramic Tiles" sequence="0" value="Ceramic Tiles"/>
+                <element inactive_on_update="false" label="Porcelain Tiles" sequence="2" value="Porcelain Tiles"/>
+                <element inactive_on_update="false" label="Vitrified Tiles" sequence="3" value="Vitrified Tiles"/>
+                <element inactive_on_update="false" label="Terrazzo Tiles" sequence="4" value="Terrazzo Tiles"/>
+                <element inactive_on_update="false" label="Cement Tiles" sequence="5" value="Cement Tiles"/>
+                <element inactive_on_update="false" label="Stone Tiles" sequence="6" value="Stone Tiles"/>
+            </choice>
+        </element>
+    </element>
+</database>

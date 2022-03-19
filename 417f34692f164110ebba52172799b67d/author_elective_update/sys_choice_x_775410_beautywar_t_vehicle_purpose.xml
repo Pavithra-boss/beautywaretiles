@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="purpose" table="x_775410_beautywar_t_vehicle" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>purpose</element>
+            <name>x_775410_beautywar_t_vehicle</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 09:04:22</sys_created_on>
+            <sys_id>e66915792f528110ebba52172799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>purpose</sys_name>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_choice_x_775410_beautywar_t_vehicle_purpose</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 09:04:22</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>buying</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_vehicle</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 09:04:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e6915792f528110ebba52172799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 09:04:22</sys_updated_on>
+            <value>buying</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>selling</label>
+            <language>en</language>
+            <name>x_775410_beautywar_t_vehicle</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 09:04:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>266915792f528110ebba52172799b619</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 09:04:22</sys_updated_on>
+            <value>selling</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="t_vehicle" max_length="40" name="x_775410_beautywar_t_vehicle" sizeclass="0" type="collection">
+        <element label="driver name" max_length="40" name="driver_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purpose" max_length="40" name="purpose" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="buying" sequence="0" value="buying"/>
+                <element inactive_on_update="false" label="selling" sequence="1" value="selling"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="tile type" max_length="40" name="tile_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ceramic Tiles" sequence="0" value="Ceramic Tiles"/>
+                <element inactive_on_update="false" label="Porcelain Tiles" sequence="1" value="Porcelain Tiles"/>
+                <element inactive_on_update="false" label="Vitrified Tiles" sequence="2" value="Vitrified Tiles"/>
+                <element inactive_on_update="false" label="Terrazzo Tiles" sequence="3" value="Terrazzo Tiles"/>
+                <element inactive_on_update="false" label="Cement Tiles" sequence="4" value="Cement Tiles"/>
+                <element inactive_on_update="false" label="Stone Tiles" sequence="5" value="Stone Tiles"/>
+            </choice>
+        </element>
+        <element label="trip hours" max_length="40" name="trip_hours" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="vehicle number" max_length="40" name="vehicle_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="vehicle type" max_length="40" name="vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tata SFC 407" sequence="0" value="Tata SFC 407"/>
+                <element inactive_on_update="false" label="TATA ACE" sequence="1" value="TATA ACE"/>
+                <element inactive_on_update="false" label="Ashok Leyland 1616" sequence="2" value="Ashok Leyland 1616"/>
+                <element inactive_on_update="false" label="Tata LPT 1613" sequence="3" value="Tata LPT 1613"/>
+                <element inactive_on_update="false" label="Ashok Leyland 3118" sequence="4" value="Ashok Leyland 3118"/>
+            </choice>
+        </element>
+    </element>
+</database>

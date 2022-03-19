@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>balance_to_be_paid</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 12:23:06</sys_created_on>
+        <sys_id>6dd60afd2fd28110ebba52172799b6a2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>balance_to_be_paid</sys_name>
+        <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6dd60afd2fd28110ebba52172799b6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:30:39</sys_updated_on>
+        <table>x_775410_beautywar_t_sales</table>
+        <ui_policy display_value="PAYMENT">8f068ebd2fd28110ebba52172799b685</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

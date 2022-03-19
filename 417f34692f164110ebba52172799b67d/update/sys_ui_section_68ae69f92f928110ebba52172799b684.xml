@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="payment" section_id="68ae69f92f928110ebba52172799b684" sys_domain="global" table="x_775410_beautywar_t_sales" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:39:53</sys_created_on>
+            <sys_id>ed4fedf92f928110ebba52172799b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="payment" display_value="payment" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">68ae69f92f928110ebba52172799b684</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:39:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_mode</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:39:53</sys_created_on>
+            <sys_id>614fedf92f928110ebba52172799b659</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="payment" display_value="payment" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">68ae69f92f928110ebba52172799b684</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:39:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>advance_amount_paid</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:39:53</sys_created_on>
+            <sys_id>e14fedf92f928110ebba52172799b659</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="payment" display_value="payment" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">68ae69f92f928110ebba52172799b684</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:39:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance_to_be_paid</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:39:53</sys_created_on>
+            <sys_id>654fedf92f928110ebba52172799b659</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="payment" display_value="payment" name="x_775410_beautywar_t_sales" sys_domain="global" view="Default view">68ae69f92f928110ebba52172799b684</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:39:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>payment</caption>
+            <header>false</header>
+            <name>x_775410_beautywar_t_sales</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:37:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68ae69f92f928110ebba52172799b684</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_775410_beautywar_t_sales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="beautyware tiles " source="x_775410_beautywar">417f34692f164110ebba52172799b67d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="beautyware tiles ">417f34692f164110ebba52172799b67d</sys_scope>
+            <sys_update_name>sys_ui_section_68ae69f92f928110ebba52172799b684</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:37:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
